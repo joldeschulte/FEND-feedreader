@@ -87,7 +87,7 @@ $(function() {
           loadFeed(0, done);
         });
         it('loaded with loadFeed', function() {
-          expect(document.querySelector('.feed').children.length > 0).toBe(true);
+          expect($('.feed .entry').length > 0).toBe(true);
         });
     });
 
